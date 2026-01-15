@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,107 +7,60 @@
   <meta name="description" content="A structured, statewide directory of senior care, hospice, and end-of-life services in Maine.">
 
   <style>
-    body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background-color: #111;
-      color: #f2f2f2;
-      line-height: 1.6;
-    }
-
-    header {
-      padding: 60px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    h1 {
-      font-size: 2.4rem;
-      font-weight: normal;
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 1.05rem;
-      color: #d6d6d6;
-      max-width: 760px;
-    }
-
-    main {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-    }
-
-    section {
-      margin-top: 50px;
-    }
-
-    h2 {
-      font-size: 1.4rem;
-      font-weight: normal;
-      border-bottom: 1px solid #333;
-      padding-bottom: 10px;
-      margin-bottom: 20px;
-    }
-
-    a {
-      color: #9fc7ff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      margin-top: 80px;
-      padding: 30px 20px;
-      font-size: 0.9rem;
-      color: #999;
-      border-top: 1px solid #222;
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+    body { margin:0; font-family: Georgia, "Times New Roman", serif; background:#111; color:#f2f2f2; line-height:1.6; }
+    header, main, footer { max-width: 900px; margin:auto; padding: 20px; }
+    header { padding-top: 60px; padding-bottom: 10px; }
+    h1 { font-size: 2.4rem; font-weight: normal; margin: 0 0 18px 0; }
+    p { font-size: 1.05rem; color:#d6d6d6; margin: 0 0 14px 0; max-width: 780px; }
+    a { color:#9fc7ff; text-decoration:none; }
+    a:hover { text-decoration: underline; }
+    nav { margin-top: 18px; padding-top: 14px; border-top: 1px solid #222; }
+    nav a { margin-right: 14px; white-space: nowrap; }
+    section { margin-top: 46px; }
+    h2 { font-size: 1.4rem; font-weight: normal; border-bottom: 1px solid #333; padding-bottom: 10px; margin-bottom: 18px; }
+    .note { color:#a8a8a8; font-size: 0.95rem; }
+    footer { margin-top: 80px; padding-top: 24px; border-top: 1px solid #222; color:#999; font-size: 0.9rem; }
   </style>
 </head>
 
 <body>
-
 <header>
   <h1>Maine Senior Care & End-of-Life Directory</h1>
   <p>
-    A calm, structured reference for families navigating senior care,
-    in-home services, hospice, and end-of-life planning across the state of Maine.
+    A calm, structured reference for families navigating senior care, in-home services,
+    hospice, and end-of-life planning across the state of Maine.
   </p>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="southern-maine.html">Southern</a>
+    <a href="central-western.html">Central & Western</a>
+    <a href="midcoast.html">Mid Coast</a>
+    <a href="downeast.html">Downeast</a>
+    <a href="northern.html">Northern</a>
+  </nav>
 </header>
 
 <main>
-
   <section>
     <h2>Care Categories</h2>
-    <p><a href="#">In-Home Care & Caregiving</a></p>
-    <p><a href="#">Senior Living & Facilities</a></p>
-    <p><a href="#">Hospice & Palliative Support</a></p>
-    <p><a href="#">End-of-Life Planning & Funeral Services</a></p>
+    <p class="note">Regional pages provide access to the four core categories.</p>
+    <p><a href="southern-maine.html">View by Region</a></p>
   </section>
 
   <section>
     <h2>Regional Access</h2>
-    <p><a href="#">Southern Maine</a></p>
-    <p><a href="#">Central & Western Maine</a></p>
-    <p><a href="#">Mid Coast Maine</a></p>
-    <p><a href="#">Downeast Maine</a></p>
-    <p><a href="#">Northern Maine</a></p>
+    <p><a href="southern-maine.html">Southern Maine</a></p>
+    <p><a href="central-western.html">Central & Western Maine</a></p>
+    <p><a href="midcoast.html">Mid Coast Maine</a></p>
+    <p><a href="downeast.html">Downeast Maine</a></p>
+    <p><a href="northern.html">Northern Maine</a></p>
   </section>
-
 </main>
 
 <footer>
   © Maine Senior Care & End-of-Life Directory<br>
   Independent, informational resource for Maine families.
 </footer>
-
 </body>
 </html>
