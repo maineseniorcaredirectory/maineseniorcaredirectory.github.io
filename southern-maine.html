@@ -21,6 +21,20 @@
     h2 { font-size: 1.25rem; font-weight: normal; border-bottom: 1px solid #333; padding-bottom: 8px; margin-bottom: 16px; }
     .note { color:#a8a8a8; font-size: 0.95rem; }
     footer { margin-top: 60px; padding-top: 22px; border-top: 1px solid #222; color:#999; font-size: 0.9rem; }
+    /* Provider listing styles */
+.provider { margin: 0 0 14px 0; }
+.provider-name { margin: 0; }
+.provider-loc,
+.provider-phone,
+.provider-email,
+.provider-desc {
+  margin: 0;
+  color: #d6d6d6;
+}
+.provider a { color: #9fc7ff; text-decoration: none; }
+.provider a:hover { text-decoration: underline; }
+.provider-desc { color: #a8a8a8; margin-top: 2px; }
+
   </style>
 </head>
 
@@ -50,7 +64,20 @@
 
   <section id="inhome">
     <h2>In-Home Care & Caregiving</h2>
-    <p class="note">Provider listings will be added here in the locked format.</p>
+    <div class="provider">
+  <div class="provider-name"><strong>Example Home Care Services</strong></div>
+  <div class="provider-loc">Southern Maine</div>
+  <div class="provider-phone">
+    <a href="tel:+12075551234">tel: (207) 555-1234</a>
+  </div>
+  <div class="provider-email">
+    <a href="mailto:info@examplehomecare.com">info@examplehomecare.com</a>
+  </div>
+  <div class="provider-desc">
+    In-home personal care, companionship, and caregiver support.
+  </div>
+</div>
+
   </section>
 
   <section id="seniorliving">
